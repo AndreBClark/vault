@@ -5,5 +5,12 @@
   "settings-search",
   "calendar",
   "lovely-bases",
-  "homepage"
+  "homepage",
+  "vim-marker-sharpener",
+  "vim-yank-highlight",
+  "vimium",
+  "obsidian-vimrc-support",
+  "obsidian-git",
+  "obsidian-icon-folder",
+  "obsidian-advanced-slides"
 ]
