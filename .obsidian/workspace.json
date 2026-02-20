@@ -114,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Vault/00 - Maps of Content/Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,11 +133,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Vault/00 - Maps of Content/Dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Dashboard"
             }
           },
           {
