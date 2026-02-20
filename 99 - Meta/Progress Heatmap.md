@@ -29,7 +29,7 @@ views:
     trackType: number
 
 ```
-### Writing
+### Lunarium
 ```base
 views:
   - type: heatmap-calendar
@@ -37,7 +37,7 @@ views:
     filters:
       and:
         - file.inFolder("06 - Daily")
-        - file.hasTag("Task/Writing")
+        - file.hasTag("Task/Lunarium")
     order:
       - file.name
     imageProperty: note.Image
@@ -54,7 +54,7 @@ views:
     trackType: number
 
 ```
-### Passion Project
+### NixConfig
 ```base
 views:
   - type: heatmap-calendar
@@ -62,7 +62,7 @@ views:
     filters:
       and:
         - file.inFolder("06 - Daily")
-        - file.hasTag("Task/PassionProject")
+        - file.hasTag("Task/NixConfig")
     order:
       - file.name
     imageProperty: note.Image
@@ -76,6 +76,56 @@ views:
     colorScheme: primary
     viewMode: week-grid
     customColors: "#050512, #52eea3"
+    trackType: number
+
+```
+
+### Resume
+```base
+views:
+  - type: heatmap-calendar
+    name: Passion Project Heatmap
+    filters:
+      and:
+        - file.inFolder("06 - Daily")
+        - file.hasTag("Task/Resume")
+    order:
+      - file.name
+    imageProperty: note.Image
+    dateProperty: file.name
+    trackProperty: note.tags
+    showDayLabels: true
+    showYearLabels: false
+    showLegend: false
+    shape: rounded
+    reverseColors: false
+    colorScheme: primary
+    viewMode: week-grid
+    customColors: "#050512, #52eea3"
+    trackType: number
+
+```
+### Personal Site
+```base
+views:
+  - type: heatmap-calendar
+    name: Passion Project Heatmap
+    filters:
+      and:
+        - file.inFolder("06 - Daily")
+        - file.hasTag("Task/PersonalSite")
+    order:
+      - file.name
+    imageProperty: note.Image
+    dateProperty: file.name
+    trackProperty: note.tags
+    showDayLabels: true
+    showYearLabels: false
+    showLegend: false
+    shape: rounded
+    reverseColors: false
+    colorScheme: primary
+    viewMode: week-grid
     trackType: number
 
 ```
